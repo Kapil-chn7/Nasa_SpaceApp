@@ -1,0 +1,50 @@
+{
+  "name": "nuxtapp",
+  "version": "1.0.0",
+  "description": "My phenomenal Nuxt.js project",
+  "author": "Kapil Chauhan",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "connect": "^3.7.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "dgram": "^1.0.1",
+    "dns": "^0.2.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "geolocation": "^0.2.0",
+    "module": "^1.2.5",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.10.6",
+    "multer": "^1.4.2",
+    "navigator": "^1.0.1",
+    "net": "^1.0.2",
+    "nodemailer": "^6.4.10",
+    "nuxt": "^2.0.0",
+    "nuxt-socket-io": "^1.0.25",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "tls": "0.0.1",
+    "use-socket.io-client": "^1.1.0",
+    "vue-browser-geolocation": "^1.8.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.19.1"
+  }
+}
